@@ -9,15 +9,14 @@ x509_extensions = v3_req
 C = TW
 ST = Taiwan
 L = Taipei
-O = Duotify Inc.
+O = Binsy Inc.
 OU = IT Department
 emailAddress = admin@example.com
-CN = localhost
+CN = Binsy.eth
 
 [v3_req]
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1 = *.localhost
-DNS.2 = localhost
-IP.1 = 192.168.2.100
+DNS.1 = binsy.eth
+DNS.2 = binsy.bnb
